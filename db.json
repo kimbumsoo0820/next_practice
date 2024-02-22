@@ -16,21 +16,6 @@
       "id": 2
     },
     {
-      "title": "react",
-      "body": "react is ...",
-      "id": 3
-    },
-    {
-      "title": "my test22",
-      "body": "my test22",
-      "id": 4
-    },
-    {
-      "title": "my test223",
-      "body": "my test223",
-      "id": 5
-    },
-    {
       "title": "aa",
       "body": "aa",
       "id": 6
@@ -39,11 +24,6 @@
       "title": "t",
       "body": "t",
       "id": 7
-    },
-    {
-      "title": "router refresh",
-      "body": "is so nice bc \nonly server component will refresh",
-      "id": 8
     },
     {
       "title": "b",
@@ -56,9 +36,14 @@
       "id": 10
     },
     {
-      "title": "t",
-      "body": "t",
+      "title": "ㅁ",
+      "body": "ㅁ",
       "id": 11
+    },
+    {
+      "title": "ㅠ",
+      "body": "ㅠ",
+      "id": 12
     }
   ],
   "posts": [

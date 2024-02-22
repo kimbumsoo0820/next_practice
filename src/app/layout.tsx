@@ -41,9 +41,11 @@ export default async function RootLayout({children,}: Readonly<{children: React.
     })
   },[])
   */
+
     let topics : TopicList = []
     let error : string = ''
-    const resp = await fetch('http://localhost:9999/topics', { cache: 'no-store' })
+    // env안에 변수명에 NEXT_PUBLIC을 넣어야 클라이언트 컴포넌트에서도 사용 가능
+    const resp = await fetch(process.env.NEXT_PUBLIC_API_URL+'topics', { cache: 'no-store' })
     if(resp) {
       topics = await resp.json()
     } else {
