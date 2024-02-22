@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { Control } from "./Control";
 
 // npx json-server --port 9999 --watch d.json
 //위와 같은 명령어를 입력하게 되면 9999포트의 서버를 이용할 수 있게 되며, db.sjon파일이 생성됨
@@ -60,12 +61,7 @@ export default async function RootLayout({children,}: Readonly<{children: React.
           })}
         </ol>
         {children}
-        <ul>
-          <li><Link href="/create">Create</Link></li>
-          <li><Link href="/update/1">Update</Link></li>
-          <li><input type="button" value="delete" /></li>
-
-        </ul>
+        <Control />
         </body>
     </html>
   );
