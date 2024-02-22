@@ -1,0 +1,81 @@
+{
+  "topics": [
+    {
+      "id": 0,
+      "title": "html",
+      "body": "html is ..."
+    },
+    {
+      "id": 1,
+      "title": "css",
+      "body": "css is ..."
+    },
+    {
+      "title": "javascript",
+      "body": "javascript is ...",
+      "id": 2
+    },
+    {
+      "title": "react",
+      "body": "react is ...",
+      "id": 3
+    },
+    {
+      "title": "my test",
+      "body": "my test",
+      "id": 4
+    },
+    {
+      "title": "my test2",
+      "body": "my test2",
+      "id": 5
+    },
+    {
+      "title": "aa",
+      "body": "aa",
+      "id": 6
+    },
+    {
+      "title": "t",
+      "body": "t",
+      "id": 7
+    },
+    {
+      "title": "router refresh",
+      "body": "is so nice bc \nonly server component will refresh",
+      "id": 8
+    },
+    {
+      "title": "b",
+      "body": "b",
+      "id": 9
+    },
+    {
+      "title": "c",
+      "body": "c",
+      "id": 10
+    },
+    {
+      "title": "t",
+      "body": "t",
+      "id": 11
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
